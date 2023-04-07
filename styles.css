@@ -263,6 +263,7 @@ h3.my-profession {
   max-width: 40%;
   flex: 0 0 40%;
   position: relative;
+  padding-left: 20px;
 }
 
 .home-img::after {
@@ -288,7 +289,7 @@ h3.my-profession {
 }
 
 .home .home-img img {
-  height: 400px;
+  height: 550px;
   margin: auto;
   border-radius: 5px;
 }
@@ -318,6 +319,7 @@ h3.my-profession {
 .about .about-content .about-text p {
   font-size: 16px;
   line-height: 1.5;
+  color: var(--text-black-700);
 }
 
 .about .about-content .personal-info {
@@ -327,4 +329,40 @@ h3.my-profession {
 .about .about-content .personal-info .buttons .btn {
   margin-right: 15px;
   margin-top: 10px;
+}
+
+/* portfolio */
+
+.portfolio .container {
+  padding-bottom: 40px;
+}
+
+.portfolio .portfolio-heading {
+  flex: 0 0 100%;
+  max-width: 100%;
+  margin-bottom: 40px;
+}
+
+.portfolio .portfolio-heading h2 {
+  color: var(--text-black-900);
+  font-weight: 500;
+}
+
+.portfolio .porfolio-item {
+  flex: 0 0 33.33%;
+  max-width: 33.33%;
+  margin-bottom: 30px;
+}
+
+.portfolio .portfolio-item-inner {
+  border: 6px solid var(--bg-black-100);
+  border-radius: 10px;
+  overflow: hidden;
+  cursor: pointer;
+  border: 2px solid red;
+}
+
+.portfolio .portfolio-item-inner .portfolio-image img {
+  max-width: 400px;
+  display: block;
 }
